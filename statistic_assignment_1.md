@@ -21,18 +21,21 @@ The formula is:
 <p>E(X) = μ is the expected value (the mean) of the random variable X and</p>
 <p>E(Y) = ν is the expected value (the mean) of the random variable Y</p>
 <p>n = the number of items in the data set</p>
+
 # example
+
 ##  Calculate covariance for the following data set:
+
 <p>x: 2.1, 2.5, 3.6, 4.0 (mean = 3.1)</p>
 <p>y: 8, 10, 12, 14 (mean = 11)</p>
 
 Substitute the values into the formula and solve:
-Cov(X,Y) = ΣE((X-μ)(Y-ν)) / n-1
-= (2.1-3.1)(8-11)+(2.5-3.1)(10-11)+(3.6-3.1)(12-11)+(4.0-3.1)(14-11) /(4-1)
-= (-1)(-3) + (-0.6)(-1)+(.5)(1)+(0.9)(3) / 3
-= 3 + 0.6 + .5 + 2.7 / 3
-= 6.8/3
-= 2.267
+<p>Cov(X,Y) = ΣE((X-μ)(Y-ν)) / n-1 </p>
+<p>= (2.1-3.1)(8-11)+(2.5-3.1)(10-11)+(3.6-3.1)(12-11)+(4.0-3.1)(14-11) /(4-1)</p>
+<p>= (-1)(-3) + (-0.6)(-1)+(.5)(1)+(0.9)(3) / 3</p>
+<p>= 3 + 0.6 + .5 + 2.7 / 3</p>
+<p>= 6.8/3</p>
+<p>= 2.267</p>
 
 The result is positive, meaning that the variables are positively related.
 
