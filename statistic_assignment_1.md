@@ -7,23 +7,24 @@ when you work with a sample you’ve only got a small fraction of the population
 
 In the case of the sample variance the particular statistic you are working with is the sample mean (x̄) instead of the population mean(μ). Any x-value in your sample is going to be closer to x̄ than to μ.
 
-sample calculations with n in the denominator are almost always going to be higher than calculations with n-1 in the denominator (Warne, 2017). When you subtract 1 from your sample size, it happens to turn out you’re making a fairly good adjustment for the deflated sum of squares figure as long as n isn’t huge (Edelman, 2018).
+sample calculations with n in the denominator are almost always going to be higher than calculations with n-1 in the denominator (Warne, 2017). When you subtract 1 from your sample size, it happens to turn out you’re making a fairly good adjustment for the deflated sum of squares figure as long as n isn’t huge (Edelman, 2018)
 
 
 ![Image result for covariance formula](https://cdn.educba.com/academy/wp-content/uploads/2019/05/Covariance-Formula.jpg)
 In python the covariance matrix can be easily calculated with
 ## np.cov
+
 Covariance measure  how much two random variables vary together. It’s similar to variance, but where variance tells you how a single variable varies, co variance tells you how two variables vary together.
 The formula is:
-Cov(X,Y) = Σ E((X-μ)E(Y-ν)) / n-1 where:
-X is a random variable
-E(X) = μ is the expected value (the mean) of the random variable X and
-E(Y) = ν is the expected value (the mean) of the random variable Y
-n = the number of items in the data set
+<p>Cov(X,Y) = Σ E((X-μ)E(Y-ν)) / n-1 where:</p>
+<p>X is a random variable</p>
+<p>E(X) = μ is the expected value (the mean) of the random variable X and</p>
+<p>E(Y) = ν is the expected value (the mean) of the random variable Y</p>
+<p>n = the number of items in the data set</p>
 # example
 ##  Calculate covariance for the following data set:
-x: 2.1, 2.5, 3.6, 4.0 (mean = 3.1)
-y: 8, 10, 12, 14 (mean = 11)
+<p>x: 2.1, 2.5, 3.6, 4.0 (mean = 3.1)</p>
+<p>y: 8, 10, 12, 14 (mean = 11)</p>
 
 Substitute the values into the formula and solve:
 Cov(X,Y) = ΣE((X-μ)(Y-ν)) / n-1
