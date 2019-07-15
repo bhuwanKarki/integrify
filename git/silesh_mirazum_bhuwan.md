@@ -17,6 +17,15 @@
 ```
 
 
+ ## Assessment of *Mirazum*
+
+ * ALl the required task has been carried out as given in the instruction.
+ * Her document was well managed with the explaination 
+ * she has used lots all the command thay were meant to be use.
+
+ * her document was well organized which I like
+ * Her file can be taken as a reference which show the execution of the commands if she forget anything she can just go through it to quickly recall.
+
 
 
 
